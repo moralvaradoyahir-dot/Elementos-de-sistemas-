@@ -25,7 +25,7 @@ h1 {
 }
 
 #quote {
-  font-size: 18px; /* Tamaño de letra de las citas */
+  font-size: 20px; /* Tamaño de letra de las citas */
   margin: 20px 0; /* Espacio arriba y abajo */
   min-height: 60px; /* Altura mínima para evitar que el cuadro cambie de tamaño cuando cambia el texto */
 }
@@ -43,6 +43,7 @@ button {
 button:hover {
   background: #e68900; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 

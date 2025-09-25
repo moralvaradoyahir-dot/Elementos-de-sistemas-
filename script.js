@@ -1,12 +1,12 @@
 // Declaramos un arreglo (array) con varias frases motivacionales
 const datos = [datos 
-  "Pastel de Manzana 🍎.",
-  "Pastel de Zanahoria 🥕.",
-  "Pastel de Chocolate 🍫.",
-  "pastel de 3 Leches 🥛.",
-  "pastel de Queso 🧀.",
-  "pastel de Vainilla 🍦.",
-  "pastel de frutas 🍇🍉🍍."
+  "Pastel de Manzana .",
+  "Pastel de Zanahoria .",
+  "Pastel de Chocolate .",
+  "pastel de 3 Leches .",
+  "pastel de Queso .",
+  "pastel de Vainilla .",
+  "pastel de frutas ."
 ];
 
 // Definimos la función que mostrará una cita aleatoria
@@ -21,6 +21,7 @@ function generarDatos() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText = datos[indice];
 }
+
 
 
 

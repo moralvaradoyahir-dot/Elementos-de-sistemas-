@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif; /* Fuente de texto de toda la página */
   background: linear-gradient(135deg, #66cc00, #2575fc); /* Fondo degradado diagonal */
-  color: #ff0000; /* Color de texto blanco */
+  color: #255,255,255; /* Color de texto blanco */
   text-align: left ; /* Centra el texto horizontalmente +/
   height: 100vh; /* Ocupa el 100% de la altura de la ventana */
   margin: 0; /* Quita los márgenes por defecto */
@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  background: rgba(255,0,0); /* Fondo negro semitransparente */
+  background: rgba(255,255,255); /* Fondo negro semitransparente */
   padding: 30px; /* Espacio interno alrededor del contenido */
   border-radius: 20px; /* Bordes redondeados */
   width: 80%; /* Ocupa 80% del ancho de la pantalla */
@@ -43,6 +43,7 @@ button {
 button:hover {
   background: #e68900; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 

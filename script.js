@@ -1,15 +1,15 @@
 // Declaramos un arreglo (array) con varios datos sobre Antojitos Mexicanos 
 const datos = [datos 
-  "quesadillas .",
-  "sopes .",
-  "tamales .",
-  "tostadas .",
-  "tortas .",
+  "quesadillas.",
+  "sopes.",
+  "tamales.",
+  "tostadas.",
+  "tortas.",
   "tacos.",
-  "pozole ."
+  "pozole."
 ];
 
-// Definimos la función que mostrará una cita aleatoria
+// Definimos la función que mostrará un dato aleatoria
 function generarDatos() {
   // Generamos un dato aleatorio entre 1 y 9 la cantidad de datos (datos.length)
   // Math.random() → número entre 1 y 9
@@ -21,6 +21,7 @@ function generarDatos() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText = datos[indice];
 }
+
 
 
 

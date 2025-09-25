@@ -1,5 +1,5 @@
 // Declaramos un arreglo (array) con varias frases motivacionales
-const datos = [Generar () 
+const datos = [datos 
   "Pastel de Manzana 🍎.",
   "Pastel de Zanahoria 🥕.",
   "Pastel de Chocolate 🍫.",
@@ -21,5 +21,6 @@ function generarDatos() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText = datos[indice];
 }
+
 
 

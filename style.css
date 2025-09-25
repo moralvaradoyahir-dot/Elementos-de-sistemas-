@@ -20,8 +20,8 @@ body {
 }
 
 h1 {
-  margin-bottom: 20px; /* Espacio debajo del título */
-  font-size: 24px; /* Tamaño de letra del título */
+  margin-bottom: 21px; /* Espacio debajo del título */
+  font-size: 25px; /* Tamaño de letra del título */
 }
 
 #quote {
@@ -43,6 +43,7 @@ button {
 button:hover {
   background: #e68900; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 

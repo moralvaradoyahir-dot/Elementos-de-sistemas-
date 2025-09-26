@@ -31,7 +31,7 @@ h1 {
 }
 
 button {
-  background: #00ffff; /* Color de fondo naranja */
+  background: #ffff00; /* Color de fondo naranja */
   border: none; /* Sin borde */
   padding: 12px 20px; /* Espaciado interno */
   font-size: 18px; /* Tamaño de letra */
@@ -43,6 +43,7 @@ button {
 button:hover {
   background: #ffff00; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 

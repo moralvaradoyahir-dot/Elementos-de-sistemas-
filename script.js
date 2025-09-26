@@ -1,5 +1,5 @@
 // Declaramos un arreglo (array) con varios datos sobre Generador de antojitos mexicanos 
-const Generador de Antojitos Mexicanos = [Generador de Antojitos Mexicanos 
+const GeneradordeAntojitosMexicanos = [GeneradordeAntojitosMexicanos 
   "Quesadillas.",
   "Sopes.",
   "Tamales.",
@@ -21,6 +21,7 @@ function Generador de Antojitos Mexicanos() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText =AntojitosMexicanos [indice];
 }
+
 
 
 

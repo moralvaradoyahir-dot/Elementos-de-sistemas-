@@ -10,7 +10,7 @@ const Generador Antojitos Mexicanos = [Generador Antojitos Mexicanos
 ];
 
 // Definimos la función que mostrará un dato aleatorio
-function Generador de Antojitos Mexicanos() {
+function Generador Antojitos Mexicanos() {
   // Generamos un dato aleatorio entre la cantidad de datos (datos.length)
   // Math.random() → Antojitos mexicanos 
   // * antojitos mexicanos.length → escala ese número al rango de datos disponibles
@@ -21,6 +21,7 @@ function Generador de Antojitos Mexicanos() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText =AntojitosMexicanos [indice];
 }
+
 
 
 

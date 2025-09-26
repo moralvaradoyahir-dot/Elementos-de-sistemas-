@@ -1,21 +1,18 @@
-<!DOCTYPE html> <!-- Define el tipo de documento como HTML5 -->
-<html lang="es"> <!-- Indica que el idioma principal del documento es español -->
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 (soporta tildes y ñ) -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta la vista para que sea responsive en móviles -->
-  <title>Antojitos Mexicanos</title> <!-- Título de la pestaña del navegador -->
-  <link rel="stylesheet" href="style.css"> <!-- Enlaza la hoja de estilos CSS externa -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Antojitos Mexicanos</title>
 </head>
-<body> <!-- Inicio del cuerpo de la página -->
-  <div class="container"> <!-- Contenedor principal centrado -->
-    <h1></h1>Generador de Antojitos Mexicanos</h1> <!-- Título principal -->
-    <p id="quote">Haz clic en el botón para aprender</p> <!-- Párrafo donde aparecerán los datos-->
-    <button onclick="generarDato()">Nuevo Dato</button> <!-- Botón que llama a la función "generarDato()" -->
-  </div>
-  <script src="script.js"></script> <!-- Enlaza el archivo JavaScript externo -->
+<body>
+  <h1>Generador de Antojitos Mexicanos</h1>
+  <button onclick="generadorAntojitosMexicanos()">Generar Antojito</button>
+  <p id="quote"></p>
+
+  <h2>Ejemplo de suma en JavaScript</h2>
+  <button onclick="alert(suma(10, 20))">Sumar 10 + 20</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
-
-
-

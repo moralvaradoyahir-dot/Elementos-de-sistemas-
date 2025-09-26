@@ -1,6 +1,6 @@
 // Declaramos un arreglo (array) con varios datos sobre Generador de antojitos mexicanos 
-const GeneradordeAntojitosMexicanos = [GeneradordeAntojitosMexicanos 
-  "Quesadillas().",
+const Generador de Antojitos Mexicanos = [Generador de Antojitos Mexicanos 
+  "Quesadillas.",
   "Sopes.",
   "Tamales.",
   "Tostadas.",
@@ -24,6 +24,7 @@ function Generador de Antojitos Mexicanos() {
 import random
 
 print(random.randint(0, 100))
+
 
 
 

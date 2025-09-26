@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif; /* Fuente de texto de toda la página */
-  background: linear-gradient(135deg, #008080, #ffff00); /* Fondo degradado diagonal */
+  background: linear-gradient(135deg, #8B0000, #000000); /* Fondo degradado diagonal */
   color: #128,0,0; /* Color de texto blanco */
   text-align: left ; /* Centra el texto horizontalmente +/
   height: 100vh; /* Ocupa el 100% de la altura de la ventana */
@@ -43,6 +43,7 @@ button {
 button:hover {
   background: #ffff00; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 

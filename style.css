@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif; /* Fuente de texto de toda la página */
   background: linear-gradient(135deg, #8B0000, #000000); /* Fondo degradado diagonal */
-  color: #128,0,0; /* Color de texto blanco */
+  color: #fff; /* Color de texto blanco */
   text-align: left ; /* Centra el texto horizontalmente +/
   height: 100vh; /* Ocupa el 100% de la altura de la ventana */
   margin: 0; /* Quita los márgenes por defecto */
@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  background: rgba(128,0,0); /* Fondo negro semitransparente */
+  background: rgba(0,0,0,7); /* Fondo negro semitransparente */
   padding: 30px; /* Espacio interno alrededor del contenido */
   border-radius: 20px; /* Bordes redondeados */
   width: 80%; /* Ocupa 80% del ancho de la pantalla */
@@ -31,7 +31,7 @@ h1 {
 }
 
 button {
-  background: #ffff00; /* Color de fondo naranja */
+  background: #FFEB3B; /* Color de fondo naranja */
   border: none; /* Sin borde */
   padding: 12px 20px; /* Espaciado interno */
   font-size: 18px; /* Tamaño de letra */
@@ -41,8 +41,9 @@ button {
 }
 
 button:hover {
-  background: #ffff00; /* Color más oscuro al pasar el mouse */
+  background: #FDD835; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 

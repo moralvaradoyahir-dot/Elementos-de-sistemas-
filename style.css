@@ -41,8 +41,9 @@ button {
 }
 
 button:hover {
-  background: #e68900; /* Color más oscuro al pasar el mouse */
+  background: #ffff00; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 

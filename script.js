@@ -21,6 +21,12 @@ function Generador Antojitos Mexicanos() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText =AntojitosMexicanos [indice];
 }
+"CREA UNA FUNCIÓN PARA"
+"SUMAR 2 NÚMEROS"
+
+def suma (a, b):
+    return a + b
+print(suma(10, 20))
 
 
 

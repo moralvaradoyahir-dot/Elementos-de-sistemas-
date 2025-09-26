@@ -21,6 +21,10 @@ function Generador de Antojitos Mexicanos() {
   // Cambiamos su contenido de texto por la frase que corresponde al índice generado
   document.getElementById("quote").innerText =AntojitosMexicanos [indice];
 }
+import random
+
+print(random.randint(0, 100))
+
 
 
 

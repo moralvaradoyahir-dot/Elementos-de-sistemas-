@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  background: rgba(0,0,0,7); /* Fondo negro semitransparente */
+  background: rgba(255,0,0,0,5); /* Fondo negro semitransparente */
   padding: 30px; /* Espacio interno alrededor del contenido */
   border-radius: 20px; /* Bordes redondeados */
   width: 80%; /* Ocupa 80% del ancho de la pantalla */
@@ -43,6 +43,7 @@ button {
 button:hover {
   background: #FDD835; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 

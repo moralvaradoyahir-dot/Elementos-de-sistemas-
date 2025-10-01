@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif; /* Fuente de texto de toda la página */
-  background: linear-gradient(135deg, #(c0c0c0, #ffOOff); /* Fondo degradado diagonal */
+  background: linear-gradient(135deg, #(c0c0c0, #OOOOff); /* Fondo degradado diagonal */
   color: #ffOOO; /* Color de texto blanco */
   text-align: left ; /* Centra el texto horizontalmente +/
   height: 100vh; /* Ocupa el 100% de la altura de la ventana */
@@ -31,7 +31,7 @@ h1 {
 }
 
 button {
-  background: #OOOO80; /* Color de fondo naranja */
+  background: #OOffOO; /* Color de fondo naranja */
   border: none; /* Sin borde */
   padding: 12px 20px; /* Espaciado interno */
   font-size: 18px; /* Tamaño de letra */
@@ -41,8 +41,9 @@ button {
 }
 
 button:hover {
-  background: #OOffOO; /* Color más oscuro al pasar el mouse */
+  background: #ffOOOO; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 

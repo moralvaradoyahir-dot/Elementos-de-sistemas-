@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif; /* Fuente de texto de toda la página */
-  background: linear-gradient(135deg, #(2575fc, #ccOO33); /* Fondo degradado diagonal */
-  color: #cb786a; /* Color de texto blanco */
+  background: linear-gradient(135deg, #9c27bo, #2196f3); /* Fondo degradado diagonal */
+  color: #A52A2A; /* Color de texto café */
   text-align: left ; /* Centra el texto horizontalmente +/
   height: 100vh; /* Ocupa el 100% de la altura de la ventana */
   margin: 0; /* Quita los márgenes por defecto */
@@ -11,12 +11,12 @@ body {
 }
 
 .container {
-  background: rgba(255,0,0,); /* Fondo negro semitransparente */
+  background: rgba(0,0,0,9); /* Fondo negro semitransparente */
   padding: 30px; /* Espacio interno alrededor del contenido */
   border-radius: 20px; /* Bordes redondeados */
   width: 80%; /* Ocupa 80% del ancho de la pantalla */
   max-width: 500px; /* No supera los 500px de ancho */
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.5); /* Sombra para dar efecto flotante */
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.3); /* Sombra para dar efecto flotante */
 }
 
 h1 {
@@ -31,7 +31,7 @@ h1 {
 }
 
 button {
-  background: #OOffOO; /* Color de fondo lima */
+  background: #ffeb3b; /* Color de fondo amarillo dorado*/
   border: none; /* Sin borde */
   padding: 12px 20px; /* Espaciado interno */
   font-size: 18px; /* Tamaño de letra */
@@ -41,8 +41,9 @@ button {
 }
 
 button:hover {
-  background: #ffOOOO; /* Color más oscuro al pasar el mouse */
+  background: #ffb300; /* Color más oscuro al pasar el mouse */
 }
+
 
 
 

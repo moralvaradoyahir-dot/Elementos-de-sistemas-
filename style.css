@@ -1,22 +1,24 @@
 body {
   font-family: Arial, sans-serif; /* Fuente de texto de toda la página */
-  background: linear-gradient(135deg, #9c27bo, #2196f3); /* Fondo degradado diagonal */
+  background: linear-gradient(135deg, #9c27b0, #2196f3); /* Corregido el código del color #9c27bo → #9c27b0 */
   color: #A52A2A; /* Color de texto café */
-  text-align: left ; /* Centra el texto horizontalmente +/
+  text-align: left; /* Corregido el comentario y la barra mal cerrada */
   height: 100vh; /* Ocupa el 100% de la altura de la ventana */
   margin: 0; /* Quita los márgenes por defecto */
   display: flex; /* Activa flexbox */
-  justify-content: left; /* Centra el contenido horizontalmente */
-  align-items: left; /* Centra el contenido verticalmente */
+  justify-content: flex-start; /* Alinea el contenido a la izquierda horizontalmente */
+  align-items: flex-start; /* Alinea el contenido arriba verticalmente */
+  padding: 20px; /* Un poco de espacio interno para que no pegue al borde */
 }
 
 .container {
-  background: rgba(0,0,0,9); /* Fondo negro semitransparente */
+  background: rgba(0, 0, 0, 0.9); /* Cambié 9 → 0.9 para que sea válido */
   padding: 30px; /* Espacio interno alrededor del contenido */
   border-radius: 20px; /* Bordes redondeados */
   width: 80%; /* Ocupa 80% del ancho de la pantalla */
   max-width: 500px; /* No supera los 500px de ancho */
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.3); /* Sombra para dar efecto flotante */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra para dar efecto flotante */
+  color: white; /* Para que el texto se vea bien sobre fondo oscuro */
 }
 
 h1 {
@@ -31,7 +33,7 @@ h1 {
 }
 
 button {
-  background: #ffeb3b; /* Color de fondo amarillo dorado*/
+  background: #ffeb3b; /* Color de fondo amarillo dorado */
   border: none; /* Sin borde */
   padding: 12px 20px; /* Espaciado interno */
   font-size: 18px; /* Tamaño de letra */
@@ -43,31 +45,3 @@ button {
 button:hover {
   background: #ffb300; /* Color más oscuro al pasar el mouse */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
